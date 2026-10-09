@@ -114,34 +114,24 @@ LIMIT 3;
 | Question |                 Answer / Key Numbers                     |
 | -------- | -------------------------------------------------------- |
 | **Q1**   | 298 total trips after cleaning                           |
-
-| **Q2**   | (trip_id=250, dist= 35.9km), (trip_id=225, dist= 33.4km),
+| **Q2**   | (trip_id=250, dist= 35.9km), (trip_id=225, dist= 33.4km),|
              (trip_id=126, dist= 33.1km), (trip_id=98, dist= 32.8km),
-             (trip_id=151, dist= 31.3km)
-             
+             (trip_id=151, dist= 31.3km)        
 | **Q3**   | Lagos: 105, Accra: 44, Port Harcourt: 40, Abuja: 40,     |
-             Nairobi: 38, Kampala: 31
-             
+             Nairobi: 38, Kampala: 31             
 | **Q4a**  | Duplicate trips identified: IDs 82/299 and 253/300       |
-
 | **Q4b**  | Trip IDs: 29, 54, 102, 124, 130, 175, 213, 230 and 252   |
-
 | **Q5**   | City names cleaned and duplicate trips 299 & 300 removed |
-
 | **Q6**   | Lagos had the highest recorded revenue: ₦218,890,        |
-             with total completed trips: 93
-             
+             with total completed trips: 93             
 | **Q7**   | December 2025 was the best month with revenue: 66,980    |
-
 | **Q8**   | Economy, 121 completed trips, revenue: 262,550           |
              Comfort, 76 completed trips, revenue:  239,050
-             Bike, 51 completed trips, revenue: 66,870  
-             
+             Bike, 51 completed trips, revenue: 66,870               
 | **Q9**   | customer_id:  07    customer_name:  Bisi Ogunleye        |
              customer_id:  23    customer_name:  Wanjiru Kamau 
              customer_id:  29    customer_name:  Akinyi Ouma  
-             customer_id:  36    customer_name:  Nakato Namutebi     
-             
+             customer_id:  36    customer_name:  Nakato Namutebi      |              
 | **Q10** | customer_name: Chioma Nwosu  total_spend: 38,950          |
             customer_name: Tunde Bakare  total_spend: 37,610  
             customer_name: Zainab Garba  total_spend: 35,380  
