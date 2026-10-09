@@ -113,7 +113,8 @@ SELECT
     city,
     COUNT(*) AS total
 FROM trips
-GROUP BY city;
+GROUP BY city
+ORDER BY total_trips DESC;
 ```
 
 **Verify the total number of records remaining:**
@@ -125,7 +126,7 @@ FROM trips;
 
 ## Q6. Revenue by City
 
-Calculate the number of completed trips, recorded revenue, and average fare for each city. Results are ordered by revenue from highest to lowest.
+Calculate the number of completed trips, revenue, and average fare for each city. Results are ordered by revenue from highest to lowest.
 
 ```sql
 SELECT
@@ -221,3 +222,17 @@ LIMIT 3;
 | **Q8**   | Revenue by vehicle type: Economy — 121 completed trips, ₦262,550; Comfort — 76 completed trips, ₦239,050; Bike — 51 completed trips, ₦66,870.          |
 | **Q9**   | Customers who never booked a trip: Customer 07 — Bisi Ogunleye; Customer 23 — Wanjiru Kamau; Customer 29 — Akinyi Ouma; Customer 36 — Nakato Namutebi. |
 | **Q10**  | Top three customers by total spend: Chioma Nwosu — ₦38,950; Tunde Bakare — ₦37,610; Zainab Garba — ₦35,380.                                            |
+
+## Recommendations to ZoomRide Management
+
+1. I recommend that ZoomRide invest in Lagos because it recorded the highest revenue, with ₦218,890 from 93 completed trips.
+
+2. Two data problems I found were inconsistent city names such as “Nairobbi,” “Kampla,” “PH,” and “Port-Harcourt,” and missing fare values on some completed trips.
+
+3. If the city names were not corrected, trips and revenue could be split across different city names, making city-level analysis inaccurate.
+
+4. The missing fares may represent completed trips where payment was made offline or was not properly recorded, which means the revenue reported by the SQL query may be lower than the actual revenue.
+
+5. Before making a major investment decision, I would like to know the operating costs and actual profit for each city, because the city with the highest revenue may not necessarily be the most profitable.
+
+
